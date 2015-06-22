@@ -9,5 +9,5 @@ autopublish
 insecure
 grigio:babel
 ramda:ramda
-ccorcos:neo4j
 digilord:faker
+ccorcos:neo4j
