@@ -1,0 +1,9 @@
+{
+  "public" : {
+
+  },
+  "neo4j": {
+    "username": "recEngine",
+    "password": "2L9FskccTPgkAOoiRRMq"
+  }
+}
