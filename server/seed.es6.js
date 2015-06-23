@@ -17,7 +17,7 @@ let seedDB = function() {
 
     R.forEach(addName, R.range(1, 501))
 
-}
+  }
   // First function should create people
   // Second function should create locations
   // Third function should match people with locations
@@ -30,6 +30,7 @@ if (R.length(R.flatten(Neo4j.query("MATCH (n) OPTIONAL MATCH (n)-[r]-() RETURN n
 
 Meteor.startup(function() {
   // Neo4j.reset()
+  Neo4j.count("MATCH (n) OPTIONAL MATCH (n)-[r]-() RETURN n,r")
 })
 
 // if (Addresses.find().count() === 0) {
